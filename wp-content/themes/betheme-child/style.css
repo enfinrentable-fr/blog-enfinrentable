@@ -1,0 +1,134 @@
+/*
+Theme Name: Betheme Child
+Theme URI: https://themes.muffingroup.com/betheme
+Author: Muffin group
+Author URI: https://muffingroup.com
+Description: Child Theme for Betheme
+Template: betheme
+Version: 1.6.2
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@font-face {
+    font-family: "Comfortaa-Bold";
+    src: url("/fonts/Comfortaa-Bold.ttf") format("ttf"),
+}
+@font-face {
+    font-family: "Comfortaa-Regular";
+    src: url("/fonts/Comfortaa-Regular.ttf") format("ttf"),
+}
+@font-face {
+    font-family: "Comfortaa-Light";
+    src: url("/fonts/Comfortaa-Light.ttf") format("ttf"),
+}
+
+body:not(.template-slider) #Header {
+    min-height: 0;
+}
+
+h1.title {
+    font-size: 70px !important;
+}
+
+#Footer .widget_text img{
+    width: 50%;
+}
+#Footer .widget_nav_menu{
+    float: right;
+}
+#Footer .widget p {
+    color:#272727;
+	/*font-family:"Comfortaa-Regular";*/
+	font-family:'Comfortaa';
+	font-size: 14px;
+}
+#Footer .widget h4{
+    font-size: 16px;
+    color:#162a6f;
+	/*font-family:"Comfortaa-Bold";*/
+	font-family:'Comfortaa';
+	font-weight:700;
+}
+#Footer .widget ul{
+    background:none;
+	padding: 0;
+}
+#Footer .widget ul li {
+    list-style: none;
+    color:#272727;
+}
+#Footer .widget ul li a{
+    color:#272727;
+    padding: 0;
+	/*font-family:"Comfortaa-Regular;*/
+	font-family:'Comfortaa';
+    font-size: 14px;
+}
+
+#Footer .copyright{
+	font-size: 14px;
+}
+
+#Footer #social-menu a{
+	color: #bcc2cf;
+	font-size: 14px;
+}
+
+/* BLOG DESIGN */
+.has_content a{
+	color: #57a9dc;
+}
+.has_content a:hover{
+	color: #57a9dc;
+}
+.aio-icon.square {
+    background: #57a9dc !important;
+}
+.upb_row_bg {
+    background: #efefef !important;
+    color: #9099b0 !important;
+}
+.icon_list_icon {
+    background: #57a9dc !important;
+	color: white !important;
+}
+.aio-icon.none i.Defaults-circle{
+    color: #57a9dc !important;
+}
+ul.souspages {
+    background: #f6f6f6;
+    margin-left: 0;
+    padding: 10px 10px 10px 30px;
+	    color: #57a9dc;
+}
+ul.souspages li a {
+    color: #57a9dc;
+}
+
+/* MENU */
+#Top_bar .menu > li ul {
+    background-color: white !important;
+}
+#Top_bar .menu > li ul li a{
+	color: black !important;
+}
+#Top_bar .menu > li ul li a:hover, 
+#Top_bar .menu > li ul li.hover > a {
+    background: rgba(87, 169, 220, 0.1);
+    color: #57a9dc !important;
+}
+
+@media only screen and (max-width : 480px) {
+	#Footer .widget_nav_menu {
+    	float: none;
+	}
+	.mcb-wrap-pez8u5ib6 .column_attr{
+		padding-left:0 !important;
+	}
+	.mcb-wrap-w15iz1ca4 {
+		padding-top: 0px !important;
+	}
+}
+
+@media only screen and (max-width : 320px) {
+}
